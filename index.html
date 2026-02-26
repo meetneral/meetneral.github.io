@@ -1,75 +1,312 @@
-<!DOCTYPE html>
+<section class="section" id="photo"><figure class="profile-photo"><img alt="Photo of Meet R. Neral" src="profile.png"/></figure></section><!DOCTYPE html>
+
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Portfolio of Meet Neral">
-	<title>Meet Neral - Portfolio</title>
-	<link rel="stylesheet" href="style.css" />
-</head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<title>Meet R. Neral - Personal Portfolio</title>
+	<link href="style.css" rel="stylesheet"/>
+	<!-- Link to Font Awesome for icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+	<style>
+		#photo .profile-photo { display:flex; flex-direction:column; align-items:center; justify-content:center; margin:24px auto; }
+        #photo .profile-photo img { max-width:220px; width:100%; height:auto; border-radius:50%; box-shadow:0 8px 20px rgba(0,0,0,0.18); }
+        #photo h2, #photo .profile-photo figcaption { text-align:center; }
+        #photo .profile-photo figcaption { margin-top:12px; font-weight:600; }
+        @media (max-width:480px){ #photo .profile-photo img { max-width:160px; } }
+	</style></head>
 <body>
-
+<!-- Header & Navigation -->
 <header>
-	<div class="container">
-		<h1>Meet Neral</h1>
-		<p>SDET | QA engineer | Playwright, WebdriverIO ,Selenium | 2+ Years Experience</p>
-		<a href="#contact" class="btn">Contact Me</a>
-	</div>
+	<nav>
+		<div class="logo">Personal Portfolio</div>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#tools">Tools</a></li>
+			<li><a href="#resume">Resume</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
 </header>
-
-<section id="experience" class="container">
-	<h2>Professional Experience</h2>
-
-	<div class="experience-card">
-		<div class="card-header">
-			<h3>Tech Mahindra | Globe Telecom (Web Automation Lead)</h3>
-			<p class="date-badge">Dec 2023 – Present</p>
+<main>
+	<!-- Hero Section -->
+	<section id="hero">
+		<div class="hero-content">
+			<h1>Meet R. Neral</h1>
+			<p>SDET/QA engineer passionate about building test solutions</p>
+			<p>E2E QA &amp; Test Architecture Specialist | AI &amp; Analytics Practitioner</p>
+			<a class="cta-button" href="#projects">View My Work</a>
 		</div>
-		<p class="role-desc">Spearheading the end-to-end web automation strategy for a major telecommunications provider, focusing on high-availability customer portals.</p>
-		<ul>
-			<li><strong>Framework Engineering:</strong> Architected a scalable <strong>Page Object Model (POM)</strong> framework using Selenium WebDriver and Java, maintaining 200+ mission-critical test cases.</li>
-			<li><strong>Efficiency Optimization:</strong> Engineered a parallel execution strategy using <strong>TestNG and Maven</strong>, slashing regression cycles from <strong>72 hours to just 4 hours</strong> (94% improvement).</li>
-			<li><strong>Technical Problem Solving:</strong> Developed custom handling for complex UI elements like <strong>Shadow DOMs and Nested Iframes</strong>, reducing script maintenance overhead by 25%.</li>
-		</ul>
-	</div>
+	</section>
+	<!-- About Section -->
+	<section class="section" id="about">
+		<h2>About Me</h2>
+		<p>
+			As a <b>seasoned SDET and QA Automation Lead</b> with a deep specialization in <b>high-compliance sectors</b> like <b>Banking (USAA), Insurance, and E-commerce</b>, I bridge the critical gap between <b>software development and quality assurance</b>.<br>
+			My expertise lies in <b>architecting scalable, enterprise-grade automation frameworks</b> from the ground up.<br>
+			I have a proven track record of <b>migrating legacy Hybrid and Data-Driven frameworks</b> to modern <b>Behavior-Driven Development (BDD)</b> ecosystems using <b>Cucumber, Gherkin, and Java</b>, significantly enhancing <b>stakeholder visibility and test maintainability</b>.<br>
+		</p>
 
-	<div class="experience-card">
-		<div class="card-header">
-			<h3>Tech Mahindra | Globe Telecom (API Automation Specialist)</h3>
-			<p class="date-badge">Dec 2023 – Present</p>
+
+
+		<p>
+			Throughout my career, I have mastered the <b>Software Development Life Cycle (SDLC)</b> within <b>Agile/Scrum environments</b>.<br>
+			I am adept at <b>analyzing complex User Stories</b> and acceptance criteria to design <b>robust Test Plans and Strategies</b>.<br>
+			My technical toolkit is extensive, ranging from <b>Selenium WebDriver</b> for web applications to <b>Protractor for AngularJS modules</b> and <b>Appium for cross-platform mobile automation</b> on Android and iOS.<br>
+			I am highly proficient in <b>identifying dynamic web elements</b> using advanced <b>XPath and CSS selectors</b>, implementing the <b>Page Object Model (POM)</b> and <b>Page Factory patterns</b> to ensure <b>code reusability and reduced script overhead</b>.<br>
+		</p>
+
+
+
+		<p>
+			Beyond UI automation, I possess <b>strong technical acumen in Middleware and API Testing</b>.<br>
+			I have extensively used <b>SoapUI and ReadyAPI</b> to validate <b>XML/JSON transactions</b> for mission-critical services like <b>wire transfers and batch payments</b>.<br>
+			My <b>backend testing expertise</b> includes executing <b>complex SQL queries</b> to ensure <b>data integrity</b> between source systems and target databases.<br>
+		</p>
+
+
+
+		<p>
+			A <b>champion of DevSecOps</b>, I integrate automated suites into <b>CI/CD pipelines using Jenkins, Maven, and Git</b>, providing <b>immediate feedback loops</b> that accelerate release cycles.<br>
+			By leveraging <b>Log4J for traceability</b> and <b>Apache POI for sophisticated data management</b>, I deliver <b>high-quality, data-consistent software solutions</b> that meet the rigorous demands of the <b>modern digital landscape</b>.<br>
+		</p>
+
+		<p>
+			<b>Framework Engineering:</b> Architected a scalable <b>Page Object Model (POM)</b> framework using <b>Selenium WebDriver and Java</b>, maintaining 200+ mission-critical test cases.<br>
+			<b>Efficiency Optimization:</b> Engineered a parallel execution strategy using <b>TestNG and Maven</b>, slashing regression cycles from <b>72 hours to just 4 hours</b> (94% improvement).<br>
+			<b>Technical Problem Solving:</b> Developed custom handling for complex UI elements like <b>Shadow DOMs and Nested Iframes</b>, reducing script maintenance overhead by 25%.<br>
+			<b>Microservices Validation:</b> Implemented <b>Rest Assured with Cucumber BDD</b> to validate complex <b>JSON schemas</b> and business logic across distributed systems.<br>
+			<b>Security Testing:</b> Automated security handshake protocols including <b>OAuth2 and JWT token-based authentication</b> to ensure zero-leakage during data transit.<br>
+			<b>Dependency Virtualization:</b> Utilized <b>WireMock</b> to simulate unstable third-party APIs, allowing the QA team to remain 100% productive even during external outages.<br>
+		</p>
+
+
+
+		<p>
+			<b>Delivering seamless user experiences</b> across <b>Android and iOS platforms</b> for millions of mobile app users.<br>
+			<b>Cross-Platform Excellence:</b> Authored unified <b>Appium</b> scripts that increased <b>mobile test coverage by 35%</b> across diverse OS versions and screen resolutions.<br>
+			<b>Cloud-Scale Execution:</b> Integrated automation suites with <b>SauceLabs and testMU AI</b>, enabling simultaneous testing on <b>50+ real-world mobile devices</b>.<br>
+			<b>Resiliency Engineering:</b> Optimized mobile scripts to handle real-world "flaky" conditions, such as <b>low battery and network throttling</b>, increasing suite stability by 40%.<br>
+		</p>
+	</section>
+	<!-- Projects Section -->
+	<section id="projects">
+		<h2>My Projects</h2>
+		<div class="project-grid">
+			<!-- Project 1 -->
+			<div class="project-card">
+				<img alt="Tech Mahindra" src="tech_m.jpg"/>
+				<h3>All Projects </h3>
+				<p>SDET for mobile/Web/API for Tech mahindra  Worked extensively on all systems E2E starting from API web , mobile , Provisioning and testing feature with diff priority scenario
+					Worked with Mobile with Android & iOS with cloud device saucelab and Test Mui and used with Allure for reporting purpose and running overall in gitlab action as Ci/CD
+					effectively
+				</p>
+				<!--<p>Desgined E2E Data Pipelines, implemented ETL/ELT pipelines using GCP Dataflow, optimized data storage and retrieval for structured and unstructured datasets-->
+				<!--                    </p>-->
+				<p class="tech-stack"><strong>Tech/Tools used:</strong>Confluence/JIRA, WebdriverIO, Playwright, CYpress, Axios, SOAP-REST API's,Grafana,Postman ,mongoDB,SQL</p>
+				<div class="project-links">
+					<!--<a href="#" target="_blank">Live Demo</a>
+                                            <a href="#" target="_blank">GitHub Repo</a>-->
+				</div>
+			</div>
+			<!-- Project 2 -->
+			<div class="project-card">
+				<img alt="Accenture" src="GlobeTeleco.png"/>
+				<h3>All Projects </h3>
+				<p>Worked as a Automation tester , have used to test the Product site extensively with collaboration with developer to reduce flaky and latency process</p>
+				<p class="tech-stack"><strong>Tech/Tools used:</strong> Selenium, Maven, Perfecto, SQL, SOAP-REST API's, Data-ETL, JIRA,Postman</p>
+				<div class="project-links">
+					<!--<a href="#" target="_blank">Live Demo</a>
+                                            <a href="#" target="_blank">GitHub Repo</a>-->
+				</div>
+				<!--</div>-->
+				<!--&lt;!&ndash; Project 3 &ndash;&gt;-->
+				<!--<div class="project-card">-->
+				<!--<img alt="Cognizant" src="cognizant.jpg"/>-->
+				<!--<h3>All Projects </h3>-->
+				<!--<p>Worked as a Programmer Analyst on PeopleSoft Finance developing project in Peoplesoft/Peoplecode to process AMEX transactions for the end user</p>-->
+				<!--<p class="tech-stack"><strong>Tech/Tools used:</strong> PeopleSoft FSCM 9.1, PeopleTools-Peoplecode, HTML, CSS, JavaScript, HP-QC</p>-->
+				<!--<div class="project-links">-->
+				<!--&lt;!&ndash;<a href="#" target="_blank">Live Demo</a>-->
+				<!--                        <a href="#" target="_blank">GitHub Repo</a>&ndash;&gt;-->
+				<!--</div>-->
+			</div>
+			<!-- Add more project cards as needed -->
 		</div>
-		<p class="role-desc">Focused on the "Headless" layer to ensure data integrity and security across 50+ microservices.</p>
-		<ul>
-			<li><strong>Microservices Validation:</strong> Implemented <strong>Rest Assured with Cucumber BDD</strong> to validate complex JSON schemas and business logic across distributed systems.</li>
-			<li><strong>Security Testing:</strong> Automated security handshake protocols including <strong>OAuth2 and JWT token-based authentication</strong> to ensure zero-leakage during data transit.</li>
-			<li><strong>Dependency Virtualization:</strong> Utilized <strong>WireMock</strong> to simulate unstable third-party APIs, allowing the QA team to remain 100% productive even during external outages.</li>
-		</ul>
-	</div>
-
-	<div class="experience-card">
-		<div class="card-header">
-			<h3>Tech Mahindra | Globe Telecom (Mobile Automation Engineer)</h3>
-			<p class="date-badge">Dec 2023 – Present</p>
+	</section>
+	<!-- Experience Section -->
+	<section id="experience">
+		<h2>Experience</h2>
+		<div class="experience-grid">
+			<!-- Experience 1 -->
+			<div class="experience-card">
+				<h3>Tech Mahindra</h3>
+				<h4>Designation: Automation Lead</h4>
+				<p>12/2023 - Till Date</p>
+			</div>
+			<!-- Experience 2 -->
+			<!--<div class="experience-card">-->
+			<!--<h3>Accenture</h3>-->
+			<!--<h4>Designation: Software Engineering Sr. Analyst </h4>-->
+			<!--<p>10/14 - 01/2016</p>-->
+			<!--</div>-->
+			<!--&lt;!&ndash; Experience 3 &ndash;&gt;-->
+			<!--<div class="experience-card">-->
+			<!--<h3>Cognizant</h3>-->
+			<!--<h4>Desgination: Programmer Analyst</h4>-->
+			<!--<p>08/11 - 09/2014</p>-->
+			<!--</div>-->
 		</div>
-		<p class="role-desc">Delivering seamless user experiences across Android and iOS platforms for millions of mobile app users.</p>
-		<ul>
-			<li><strong>Cross-Platform Excellence:</strong> Authored unified <strong>Appium</strong> scripts that increased mobile test coverage by 35% across diverse OS versions and screen resolutions.</li>
-			<li><strong>Cloud-Scale Execution:</strong> Integrated automation suites with <strong>SauceLabs and testMU AI</strong>, enabling simultaneous testing on 50+ real-world mobile devices.</li>
-			<li><strong>Resiliency Engineering:</strong> Optimized mobile scripts to handle real-world "flaky" conditions, such as low battery and network throttling, increasing suite stability by 40%.</li>
-		</ul>
+	</section>
+	<section id="tools">
+		<h2>Tools</h2>
+		<div class="Tools used">
+			<h3>Tools/Skills/Programming Languages</h3>
+			<p>Skills possessed along with the tools/COTS used</p>
+			<ul>
+				<!--<li>💡 Toosl/COTS: PeopleSoft, Salesforce/Vlocity, TIBCO, BSCS-Billing, EPC-Hansen Catalogue, GCP, Azure, AWS, ELK, Genesys-IVR, Documentum</li>-->
+				<!--<li>💡 Programming languages: C/C++, Java - JSP/Struts/Hibernate/Springboot, Peoplecode, Javascript, Python</li>-->
+				<!--<li>💡 Skills:Data Visualisation, Data Migration, Analytical Problem-Solving, E2E Solution Architecture &amp; Design, ARIS based Architecture Design, TM Forum Compliant API Design, Enterprise Data Model Design, Domain Knowledge (ICT/Telco, Finance, Energy), Project Management, Software Development Lifecycle (SDLC), BPMN/UML/Architecture, CI/CD-DevOps</li>-->
+				<!--<li>💡 Languages: English (Full Professional Competency), Hindi (Native), Marathi (Native), French(rudimentary)</li>-->
+				<!--</ul>-->
+				<!--    <p>-->
+				<!--        <b>💡 Automation & Framework Engineering:</b><br>-->
+				<!--        <b>Selenium WebDriver & Java</b> – Scalable Page Object Model (POM) & Page Factory patterns.<br>-->
+				<!--        <b>Cucumber & Gherkin</b> – Behavior-Driven Development (BDD) ecosystems.<br>-->
+				<!--        <b>Appium</b> – Cross-platform mobile automation for <b>Android & iOS</b>.<br>-->
+				<!--        <b>Protractor</b> – Specialized automation for <b>AngularJS</b> modules.<br>-->
+				<!--        <b>TestNG & Maven</b> – Parallel execution strategies and build management.<br>-->
+				<!--        <b>Shadow DOM & Nested Iframes</b> – Advanced handling of complex UI elements.<br>-->
+				<!--    </p>-->
+
+
+
+				<!--    <p>-->
+				<!--        <b>💡 API & Middleware Testing:</b><br>-->
+				<!--        <b>Rest Assured</b> – Microservices validation and JSON schema testing.<br>-->
+				<!--        <b>SoapUI & ReadyAPI</b> – XML/JSON transaction validation for mission-critical services.<br>-->
+				<!--        <b>OAuth2 & JWT</b> – Automated security handshake and token-based authentication testing.<br>-->
+				<!--        <b>WireMock</b> – Dependency virtualization and service mocking for third-party APIs.<br>-->
+				<!--    </p>-->
+
+
+
+				<!--    <p>-->
+				<!--        <b>💡 DevSecOps & Infrastructure:</b><br>-->
+				<!--        <b>CI/CD Pipelines</b> – Continuous integration and delivery using <b>Jenkins, Maven, and Git</b>.<br>-->
+				<!--        <b>Cloud Execution</b> – Large-scale testing via <b>SauceLabs and testMU AI</b> on 50+ real devices.<br>-->
+				<!--        <b>Log4J & Apache POI</b> – Traceability logging and sophisticated data-driven testing management.<br>-->
+				<!--        <b>GitHub</b> – Version control and collaborative codebase management.<br>-->
+				<!--    </p>-->
+
+				<!--    <p>-->
+				<!--        <b>💡 Backend & Performance:</b><br>-->
+				<!--        <b>SQL Queries</b> – Complex backend validation and data integrity testing.<br>-->
+				<!--        <b>Efficiency Optimization</b> – Reducing regression cycles (e.g., 72 hours down to 4 hours).<br>-->
+				<!--        <b>Resiliency Engineering</b> – Network throttling, low battery simulation, and flaky test mitigation.<br>-->
+				<!--    </p>-->
+
+
+
+				<!--    <p>-->
+				<!--        <b>💡 Strategy & Methodologies:</b><br>-->
+				<!--        <b>SDLC & STLC</b> – Full lifecycle mastery within <b>Agile and Scrum</b> environments.<br>-->
+				<!--        <b>Test Planning</b> – Designing robust Test Strategies and analyzing complex User Stories.<br>-->
+				<!--        <b>Domain Expertise</b> – <b>Banking (USAA), Insurance, E-commerce, and Microservices</b>.<br>-->
+				<!--    </p>-->
+
+				<h3>Technical Skills & Expertise</h3>
+
+
+				<li><b>💡 Automation & Framework Engineering:</b><br>
+					<b>Selenium WebDriver & Java</b> – Scalable Page Object Model (POM) & Page Factory patterns.<br>
+					<b>Cucumber & Gherkin</b> – Behavior-Driven Development (BDD) ecosystems.<br>
+					<b>Appium</b> – Cross-platform mobile automation for <b>Android & iOS</b>.<br>
+					<b>Protractor</b> – Specialized automation for <b>AngularJS</b> modules.<br>
+					<b>TestNG & Maven</b> – Parallel execution strategies and build management.<br>
+					<b>Shadow DOM & Nested Iframes</b> – Advanced handling of complex UI elements.
+				</li>
+
+
+
+				<li><b>💡 API & Middleware Testing:</b><br>
+					<b>Rest Assured</b> – Microservices validation and JSON schema testing.<br>
+					<b>SoapUI & ReadyAPI</b> – XML/JSON transaction validation for mission-critical services.<br>
+					<b>OAuth2 & JWT</b> – Automated security handshake and token-based authentication testing.<br>
+					<b>WireMock</b> – Dependency virtualization and service mocking for third-party APIs.
+				</li>
+
+
+
+				<li><b>💡 DevSecOps & Infrastructure:</b><br>
+					<b>CI/CD Pipelines</b> – Continuous integration and delivery using <b>Jenkins, Maven, and Git</b>.<br>
+					<b>Cloud Execution</b> – Large-scale testing via <b>SauceLabs and testMU AI</b> on 50+ real devices.<br>
+					<b>Log4J & Apache POI</b> – Traceability logging and sophisticated data-driven testing management.<br>
+					<b>GitHub</b> – Version control and collaborative codebase management.
+				</li>
+
+
+
+				<li><b>💡 Backend & Performance:</b><br>
+					<b>SQL Queries</b> – Complex backend validation and data integrity testing.<br>
+					<b>Efficiency Optimization</b> – Reducing regression cycles (e.g., 72 hours down to 4 hours).<br>
+					<b>Resiliency Engineering</b> – Network throttling, low battery simulation, and flaky test mitigation.
+				</li>
+
+				<li><b>💡 Strategy & Methodologies:</b><br>
+					<b>SDLC & STLC</b> – Full lifecycle mastery within <b>Agile and Scrum</b> environments.<br>
+					<b>Test Planning</b> – Designing robust Test Strategies and analyzing complex User Stories.<br>
+					<b>Domain Expertise</b> – <b>Banking (USAA), Insurance, E-commerce, and Microservices</b>.
+				</li>
+
+
+			</ul>
+		</div>
+	</section>
+	<!-- Resume & Achievements Section -->
+	<section id="resume">
+		<h2>Resume, Achievements and Certifications</h2>
+		<div class="resume-content">
+			<p>Here are some of my key accomplishments. For more details, please download my full resume.</p>
+			<ul>
+				<li>🏆 Awarded 'Standing Ovation', 'Pat on the back' and 'Bravo' awards for exceptional performance over the years. Consecutive ACER(high performer) awards for many years at current organisation</li>
+				<li>🚀 Led a team that increased user engagement by 25% through a new feature launch.</li>
+				<!--<li>💡 Certified in Azure(Data Engineer), GCP(Professional Cloud Architect, Professional Data Engineer, Associate Data Engineer), AWS AI Practitioner and TM Forum API's</li>-->
+			</ul>
+			<a class="cta-button" download="" href="teem_Laren_testing.pdf">Download Resume (PDF)</a>
+		</div>
+	</section>
+	<!-- Education Section -->
+	<section id="education">
+		<h2>Education</h2>
+		<div class="education-grid">
+			<div class="education-card">
+				<h3>University of Pune</h3>
+				<h4>Bachelor of Computer Engineering</h4>
+				<h5>Amravati, Maharashtra</h5>
+				<p>07/2019 - 07/2023</p>
+			</div>
+		</div>
+	</section>
+</main>
+<!-- Contact Section -->
+<footer id="contact">
+	<h2>Get in Touch</h2>
+	<p>I'm currently open to new opportunities as a SDET/QA Automation Tester/ Engineer. Feel free to reach out on these number
+		</a>
+		<a href="tel:+919175787558">
+			📞 +91 (9175) 787-558
+		</a>
+	</p>
+	<div class="social-links">
+		<a href="mailto:meetneral33@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+		<a href="https://www.linkedin.com/in/meetneral/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+		<a href="https://github.com/gnkagdelwar" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 	</div>
-</section>
-
-<section id="contact" class="container">
-	<h2>Contact</h2>
-	<p>Email: <a href="mailto:your.email@example.com">meetneral33@gmail.com</a></p>
-	<p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">https://www.linkedin.com/in/meetneral/</a></p>
-	<p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/meetneral</a></p>
-</section>
-
-<footer>
-	<p>© 2025 Meet Neral. All rights reserved.</p>
+	<p class="copyright">© 2026 Meet R. Neral. All rights reserved.</p>
 </footer>
-
 </body>
 </html>
